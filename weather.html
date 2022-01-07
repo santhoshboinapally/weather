@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="weather.css" />
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="searchdiv">
+            <input type="text" placeholder="Enetr City name" id="search" />
+            <button id="my-button" class="button">Search</button>
+        </div>
+        <div class="location">
+            <p id="country"></p>
+            <p id="city"></p>
+        </div>
+        <div id="date">
+            <p></p>
+        </div>
+        <div id="temp"></div>
+
+        <div id="sky-weather">
+            <h3 id="sky"></h3>
+        </div>
+        <div id="wind-speed">
+            <p></p>
+        </div>
+        <div class="sun">
+            <span id="sunrise"></span> <br />
+            <span id="sunset"></span>
+        </div>
+    </div>
+</body>
+<script src="weather.js"></script>
+
+</html>

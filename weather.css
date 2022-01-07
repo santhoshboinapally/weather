@@ -1,0 +1,82 @@
+* {
+    margin: auto;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "monserrat" sans-serif;
+    background-image: url("https://images.pexels.com/photos/1431822/pexels-photo-1431822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: contain;
+    background-position: center;
+    text-shadow: 3px 2px rgba(10, 10, 10, 0.856);
+}
+
+.container {
+    text-align: center;
+    min-height: 100vh;
+    color: rgb(253, 207, 0);
+}
+
+#search {
+    padding: 5px 5px 6px;
+}
+
+#search-input {
+    width: 100px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#search-input:focus {
+    background-color: rgba(245, 190, 190, 0.9);
+}
+
+.button {
+    width: 100px;
+    padding: 5px 5px 6px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.location {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#city {
+    font-size: 2em;
+    text-shadow: 4px 2px rgba(5, 5, 5, 0.856);
+}
+
+#temp {
+    font-size: 90px;
+    font-weight: 900;
+    text-shadow: 2px 2px rgba(10, 10, 10, 0.856);
+}
+
+#date {
+    font-size: 1.5em;
+}
+
+#sky-weather {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+#wind-speed {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.sun {
+    display: block;
+    font-size: 1.5em;
+}
