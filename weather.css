@@ -1,5 +1,5 @@
 * {
-    margin: auto;
+    margin: 5px;
     padding: 2px;
     box-sizing: border-box;
 }
@@ -7,15 +7,13 @@
 body {
     font-family: "monserrat" sans-serif;
     background-image: url("https://images.pexels.com/photos/1431822/pexels-photo-1431822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-size: contain;
     background-position: center;
-    text-shadow: 3px 2px rgba(10, 10, 10, 0.856);
 }
 
 .container {
     text-align: center;
     min-height: 100vh;
-    color: rgb(253, 207, 0);
+    color: rgb(13, 13, 11);
 }
 
 #search {
